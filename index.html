@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Rubik:wght@800&display=swap" rel="stylesheet">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aperture</title>
+    <style>
+
+        /* ==========================menu============================== */
+
+       body {
+        padding: 0;
+        margin: 0;
+       }
+       .wrapper {
+        max-width: 1440px;
+        margin: 0px auto;
+       }
+
+       .logo1 {
+        font-family: 'Rubik', sans-serif;
+        color: white;
+        font-size: 25px;
+     
+       }
+
+       .menu {
+        background: black;
+        height: 78px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       }
+
+       .li1 {
+         color: white;
+         font-family: 'Poppins', sans-serif;
+         padding: 0px 10px 0px 10px;
+       }
+
+       .button3 {
+        font-family: 'Poppins', sans-serif;
+        padding: 5px;
+        width: 150px;
+        margin-left: 30px;
+        border-radius: 10%;
+        
+       }
+
+       
+
+       .ul1 {
+         display: flex;
+         list-style-type: none;
+
+         padding: 0;
+         margin: 0;
+
+         align-items: center;
+       }
+
+       .img_cont1 {
+         background-image: url('IMAGE.png');
+         height: 716px;
+       }
+
+       /* ==========================================content======================================================= */
+
+       .text1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding: 450px 0px 0px 0px;
+        font-family: 'Poppins', sans-serif;
+       }
+
+    
+       .txt3 {
+         color: #C0C0C0;
+       }
+
+       .txt2 {
+        font-size: 54px;
+       }
+
+       .txt1 {
+        font-size: 14px;
+        color: #C0C0C0;
+       }
+
+       .menu_img {
+        display: none;
+       }
+
+
+       @media (max-width: 900px) {
+        
+        .li1 {
+            display: none;
+        }
+        .li2 {
+            display: none;
+        }
+        .menu_img {
+            display: flex;
+            padding: 0px 10px 0px 0px;
+            width: 50px;
+        }
+
+        .logo1 {
+            padding: 0px 0px 0px 15px;
+            font-size: 20px;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .txt3 {
+            padding: 10px;
+        }
+        .text1 {
+            padding: 200px 0px 0px 0px;
+        }
+
+        br {
+            display: none;
+        }
+       }
+
+       /* ============================================block's============================================================ */
+
+        .block_s {
+            background: rgb(0, 0, 0);
+            height: 1100px;
+        }
+
+        .block1_2 {
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+            flex-wrap: wrap;
+
+        }
+
+        .block3_4{
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+            flex-wrap: wrap;
+
+        
+            
+        }
+      
+        .container2 {
+            text-align: left;
+            
+        }
+
+        .block1 {
+            background-image: url('IMAGE (1).png');
+            background-repeat: no-repeat;
+            height: 417px;
+            background-size: 400px;
+
+            margin-right: 10px;
+
+        }
+
+        .container2 {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            font-family: 'Poppins', sans-serif;
+
+             max-width: 400px;
+
+            margin: 260px 0px 0px 0px;
+        }
+
+        .txt5 {
+            font-size: 15px;
+            padding: 10px;
+        }
+
+        .txt6 {
+            font-size: 10px;
+            padding: 10px;
+        }
+
+
+        /* ==================block 2=================== */
+
+        .block2 {
+            background-image: url('IMAGE (2).png');
+            background-repeat: no-repeat;
+            height: 417px;
+            background-size: 400px;
+
+            margin-left: 10px;
+       
+            
+        }
+
+
+
+        .block3 {
+            background-image: url('IMAGE (3).png');
+            background-repeat: no-repeat;
+            height: 417px;
+            background-size: 400px;
+
+            
+            margin-right: 10px;
+            
+        }
+
+
+        
+        .block4 {
+            background-image: url('IMAGE (4).png');
+            background-repeat: no-repeat;
+            height: 417px;
+            background-size: 400px;
+         
+            
+
+            margin-left: 10px;
+            
+        
+            
+        }
+
+        @media (max-width: 830px) {
+            .block_s {
+                height: 1900px;
+            }
+        }
+
+        .hii {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .txt9 {
+            font-size: 20px;
+            color: white;
+            font-size: 40px;
+
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .txt10 {
+            font-size: 20px;
+            color: #C0C0C0;
+
+            font-family: 'Poppins', sans-serif;
+        }
+
+        @media (max-width: 900px) {
+            .block1 {
+                margin-right: 0px;
+            }
+            .block2 {
+                margin-left: 0px;
+            }
+            .block3 {
+                margin-right: 0px;
+            }
+            .block4 {
+                margin-left: 0px;
+            }
+        }
+
+        /* ========================== image -- text ===============================  */
+
+        .img3 {
+            background: url('IMAGE (7).png');
+            height: 600px;
+        }
+
+        .txt12 {
+            float: right;
+            padding: 10px;
+            margin-right: 60px;
+            margin-top: 250px;
+
+            color: white;
+        }
+
+   
+        .txt13 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+
+        .txt14 {
+            font-family: 'Poppins', sans-serif;
+            color: #C0C0C0;
+            margin-left: 10px;
+        }
+
+        /* ======================Пятый блок сайта=========================================== */
+
+        .container4 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .blockW1 {
+            background: black;
+            width: 100%;
+            height: 540px;
+            color: white;
+
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        .txt_s1 {
+            align-self: center;
+            margin-top: 200px;
+            margin-left: 10px;
+        }
+
+        .txt15 {
+            font-family: 'Poppins', sans-serif;
+            color: #C0C0C0;
+        }
+
+        .txt16 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+        }
+
+        .txt17 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 13px;
+            margin-top: 5px;
+        }
+
+        .blockW2 {
+            background: red;
+            width: 100%;
+            background-image: url('IMAGE (8).png');
+        }
+
+   
+        @media (max-width: 700px) {
+            .container4 {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .blockW2 {
+            height: 540px;
+
+        }
+        }
+
+        body {
+            height: 100%;
+        }
+
+        /* Шестый блок сайта */
+
+        .img3w1 {
+            background: url('IMAGE (10).png');
+            height: 600px;
+        }
+
+        /* семый блок сайта */
+
+            
+      
+
+    </style>
+</head>
+<body>
+
+    <!-- =========================menu============================== -->
+
+    <div class="wrapper">
+        <div class="header">
+            <div class="menu">
+                <div class="logo">
+                    <div class="logo1">aperture</div>
+                </div>
+                <div class="list">
+                  <ul class="ul1">
+                    <li class="li1">Business areas</li>
+                    <li class="li1">Featured images</li>
+                    <li class="li1">Gear cage</li>
+                    <li class="li1">Contact</li>
+                    <li class="li2">
+                        <button class="button3">Get Template</button>
+                    </li>
+                    <li class="li3">
+                     <img src='burger_menu.png' alt="" class="menu_img">
+                    </li>
+                  </ul>
+                </div>
+            </div>
+            <!-- ====================================content===================================  -->
+            <div class="content">
+                <div class="img_content">
+                    <div class="img_cont1">
+                        <div class="text1">
+                            <div class="txt1">Photographer & Filmmaker</div>
+                            <div class="txt2">Aperture Studios</div>
+                            <div class="txt3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                                 enim in <br> eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum <br> nulla,
+                                  ut commodo diam libero vitae erat.
+                                 Aenean faucibus nibh et justo cursus id <br> rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- =======================================block's================================================== -->
+                <div class="block_s">
+
+                    <div class="hii">
+                        <div class="txt9">What we do.</div>
+                        <div class="txt10">The areas that we're specialized in.</div>
+                    </div>
+                   
+                    <div class="block1_2">
+                        <div class="block1">
+                            <div class="container2">
+                                <div class="txt5">Product Photography</div>
+                                <div class="txt6">Cras commodo consequat orci, in convallis risus egestas non.
+                                     Nulla  efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus  quam.</div>
+                                <div class="txt7"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="block2">
+                            <div class="container2">
+                                <div class="txt5">Product Photography</div>
+                                <div class="txt6">Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra, ligula est semper enim, nec
+                                     auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit amet rhoncus leo imperdiet nec.</div>
+                                <div class="txt7"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="block3_4">
+                        <div class="block3">
+
+                            <div class="container2">
+                                <div class="txt5">Product Photography</div>
+                                <div class="txt6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et 
+                                    faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, 
+                                    condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.</div>
+                                <div class="txt7"></div>
+                            </div>
+
+                        </div>
+                        <div class="block4">
+
+                            <div class="container2">
+                                <div class="txt5">Product Photography</div>
+                                <div class="txt6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus
+                                     feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, 
+                                    vulputate ut ligula. Vestibulum sit amet urna turpis.</div>
+                                <div class="txt7"></div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- =====================Четвертый блок сайта============================== -->
+
+        <div class="container3">
+            <div class="img3">
+               <div class="txt12">
+                <div class="txt13">Sunset at Mount Fuji</div>
+                <div class="txt14">Duis tristique sed lorem a vestibulum. Cras <br>
+                     commodo consequat orci, in convallis <br> risus egestas non.</div>
+               </div>
+            </div>
+        </div>
+
+
+    <!-- ============================================Пятый блок сайта=========================================================== -->
+
+    <div class="container4">
+        <div class="blockW1">
+
+            <div class="txt_s1">
+            <div class="txt15">The Gear cage</div>
+            <div class="txt16">The tools that we use.</div>
+            <div class="txt17">The say that "no place is boring if you've had a good night's sleep and <br> have
+                 a pocket full of unexposed film".  
+                 While we don't shoot (a lot) of film <br> these days —
+                 these are the tools that we actually use everyday to <br> capture the amazing things around us.</div>
+                 </div>
+
+        </div>
+        <div class="blockW2"></div>
+    </div>
+
+    <!-- Шестый блок сайта -->
+
+
+    <div class="container3">
+        <div class="img3w1">
+           <div class="txt12">
+            <div class="txt13">Star fall in the Himalayas</div>
+            <div class="txt14">Nulla rhoncus feugiat eros quis <br> consectetur. Morbi neque ex, <br>
+                condimentum dapibus congue et, <br> vulputate ut ligula.</div>
+           </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- семый блок сайта -->
+
+  
+
+    </div>
+
+    <script>
+        // https://www.figma.com/file/KCCKHt0Vr5F4dGb0gmnwhb/Aperture-%2B?node-id=2%3A2  --->  Макет
+
+        // Время верстки 2 день из / 4 дней
+
+        
+
+    </script>
+</body>
+
+</html>
